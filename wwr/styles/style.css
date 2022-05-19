@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@200&family=Permanent+Marker&display=swap');
+
 .content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     color: #B7B7A4;
@@ -31,34 +34,37 @@ section {
 }
 body {
     background-color: #EDDCD2;
+    font-family: 'Anybody', arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 a:hover {
     background-color: #EDDCD2;
 }
-.book {
+.book, .join {
     background-color: #A5A58D;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.book:hover {
-    background-color: #B7B7A4;
-    color: white;
-}
-.join {
-    background-color: #A5A58D;
-    color: white;
-    text-decoration: none;
-}
-.join:hover {
+.book:hover, .join:hover {
     background-color: #B7B7A4;
     color: white;
 }
 .msg {
     background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #B7B7A4;
     color: white;
+    padding: 25px 50px;
+    margin: 200px 0;
 }
 footer h3 {
     color: white;
@@ -73,22 +79,53 @@ footer a:hover {
 }
 h3 {
     color: white;
+    font-family: 'Permanent Marker', arial, sans-serif;
 }
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .msg h2 {
     color: #B7B7A4
 }
 h4 {
     color: #B7B7A4;
+    font-family: 'Permanent Marker', arial, sans-serif;
 }
 .home-title {
     color: #B7B7A4;
+    font-size: 2em;
+    margin-top: 10px;
 }
 #hero-img {
     width: 100%
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+h2 {
+    font-family: 'Permanent Marker', arial, sans-serif;margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px, solid, black;
+}
+main section img {
+    box-sizing: border-box;
 }
