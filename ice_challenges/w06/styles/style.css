@@ -24,7 +24,8 @@ h2 {
     margin-top: 500px;
     text-align: center;
     font-size: 80px;
-    letter-spacing: 15px;    
+    letter-spacing: 15px;   
+
 }
 
 img {
@@ -34,10 +35,12 @@ img {
     grid-column: 1;
     width: 100%;
     height: 100%;
+
 }
 
 section {
     background: darkgrey;
     grid-row: 1/-1;
     grid-column: 2/3;
+
 }
