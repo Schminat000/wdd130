@@ -64,7 +64,8 @@ main {
     float: right;
     font-weight: bold;
     font-size: 2em;
-    margin: -25px;
+    margin: -10px;
+    margin-right: -30px;
 }
 .right:link, .right:visited, .right:hover, .right:active {
     color: #666666;
