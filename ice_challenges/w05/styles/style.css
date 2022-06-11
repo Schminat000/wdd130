@@ -1,0 +1,11 @@
+header {
+    margin-bottom: 0;
+}
+section {
+    background: darkgrey;
+    
+}
+.circle_photos {
+    border-radius: 360px;
+    border-style: solid;
+}
